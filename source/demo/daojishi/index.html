@@ -1,0 +1,110 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>高考倒计时日历_距离2021年高考还有多少天</title>
+	<meta name="Keywords" content="高考倒计时日历,距离2021年高考还有多少天,2021年高考是什么时候" />
+	<script type="text/javascript" src="https://staticwnl.tianqistatic.com/Public/Wnl/js/jquery-1.js"></script>
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+
+	<script type="text/javascript">
+		//高考倒计时
+		function getRTime() {
+			var EndTime = new Date("2021/06/07 09:00:00"); //截止时间
+			var NowTime = new Date();
+			var t = EndTime.getTime() - NowTime.getTime();
+
+			if (t > 0) {
+				var d = Math.floor(t / 1000 / 60 / 60 / 24);
+				var h = Math.floor((t / 1000 / 60 / 60) % 24);
+				var m = Math.floor((t / 1000 / 60) % 60);
+				var s = Math.floor((t / 1000) % 60);
+				$("#CountMsg").show();
+				document.getElementById("t_d").innerHTML = d + " 天";
+				document.getElementById("t_h").innerHTML = h + " 时";
+				document.getElementById("t_m").innerHTML = m + " 分";
+				document.getElementById("t_s").innerHTML = s + " 秒";
+			} else {
+				clearInterval(timer);
+			}
+		}
+		timer = setInterval(getRTime, 1000);
+		//      var url=window.location.pathname.split('/')[2]
+		//   if(url=='gaokaodaojishi.html'){
+		//	  setTimeout(()=>{
+		//	  var year=new Date().getFullYear()
+		//      if(year==2020){
+		//	  $('.timeActive').css('background','url(/Public/Home/img/pcgaokao.png)').html('')
+		//      }else{
+		//		$('#CountMsg').html("高考，加油！金榜题名。").show();
+		//        $("#CountMsg").css("font-size","30px");
+		//	  }
+		//	  },100)
+		//   }
+	</script>
+	<!-- <style>
+		.time1 {
+			width: 100%;
+			height: 400px;
+			background: url(https://wannianli.tianqi.com/Public/Home/img/time1.png);
+			text-align: center;
+			color: #ffffff;
+			padding-top: 70px;
+			display: none;
+			margin-bottom: 20px;
+		}
+		.time1 .HotDate {
+    font-weight: normal;
+    font-size: 52px;
+    color: #ffffff;
+    margin: 30px auto 0;
+}
+	</style> -->
+</head>
+
+<body>
+	<div >
+		<div >
+			<div >
+				<!--高考倒计时开始-->
+				<div>
+					<h1>2021年高考倒计时</h1>
+					<h4>
+						2021高考时间：6月7日
+						星期一（辛丑年）四月廿七。考试时间为6月7日至8日。（部分地区高考时间为3天或4天）
+					</h4>
+					<h4>目前距离2021年高考倒计时还有</h4>
+					<div id="CountMsg" style="display: none">
+						<span id="t_d">00 天</span>
+						<span id="t_h">00 时</span>
+						<span id="t_m">00 分</span>
+						<span id="t_s">00 秒</span>
+					</div>
+				</div>
+				<!--高考倒计时结束-->
+
+
+			</div>
+		</div>
+	</div>
+</body>
+
+<script>
+	// 禁用f12及复制
+	document.onselectstart = function () {
+		return false;
+	};
+	window.oncontextmenu = function () {
+		return false;
+	};
+	window.onkeydown = window.onkeyup = window.onkeypress = function (event) {
+		if (event.code == "F12") {
+			window.event.returnValue = false;
+			return false;
+		}
+	};
+</script>
+
+</html>
