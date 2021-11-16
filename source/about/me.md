@@ -10,7 +10,7 @@ title: About me
      <!-- <h1>赵志富</h1>          -->
      <font face="黑体"  size=25>赵志富</font>
  </center>
- <font face="STCAIYUN" color=green ><p align="right">胸藏文墨怀若谷，腹有诗书气自华.&nbsp;&nbsp;</p></font>
+ <font face="STCAIYUN" color=green ><p align="right">因为追着雪，所以遇见山，因为看见光，就勇敢做了梦.&nbsp;&nbsp;</p></font>
 <center> 
  <img src="assets/phone-solid.svg" width="18px">&nbsp;18244099522         · <img src="assets/envelope-solid.svg" width="18px">&nbsp;zouxin9@foxmail.com     · <img src="assets/github-brands.svg" width="18px"><a href="https://github.com/zhaozhifu0">&nbsp;zhaozhifu0</a> <br><center>&nbsp;&nbsp;&nbsp;&nbsp;zhaozhifu08@gmail.com </center>
 </center>

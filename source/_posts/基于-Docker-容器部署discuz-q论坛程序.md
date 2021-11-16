@@ -151,6 +151,8 @@ docker exec -it <容器 ID> /bin/bash
 >   ccr.ccs.tencentyun.com/discuzq/dzq:latest
 
 
+<a href="/assets/book/nginx.conf" target="_blank">点击下载nginx.conf配置文件</a>
+
 
 2. 单击【安装】。即可完成 DIscuz！Q 的安装部署。
 

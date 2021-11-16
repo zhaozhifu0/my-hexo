@@ -3,8 +3,8 @@
 menu:
   主页: /
   #随笔: /tags/随笔/
-  #照片: /demo/photowall/index.html
-  实例: demo/index.html
+  #照片: /photos/
+  实例: /demo/index.html
   #文档: /gitbook/index.html
   简历: /about/me.html
 
@@ -15,7 +15,7 @@ subnav:
   
   #zhihu: "#"
   #qq: "#"
-  weixin: "https://www.zhaozf.site/wechat.png"
+  weixin: "https://zhaozf.site/wechat.png"
   jianshu: "https://www.jianshu.com/u/da6ef386752a"
   #douban: "#"
   #segmentfault: "#"
@@ -98,11 +98,11 @@ wangyiyun: false
 disqus: false
 
 #5、Gitment
-#gitment_owner: zhaozhifu0     #你的 GitHub ID
-#gitment_repo: 'zhaozhifu0.github.io'          #存储评论的 repo
-#gitment_oauth:
-#  client_id: '41be2b66b56556bc6c7c'           #client ID
-#  client_secret: '3338513189c56c3740d424cd2268be4a4923d99a'       #client secret
+gitment_owner: zhaozhifu0     #你的 GitHub ID
+gitment_repo: 'zhaozhifu0.github.io'          #存储评论的 repo
+gitment_oauth:
+  client_id: '41be2b66b56556bc6c7c'           #client ID
+  client_secret: '3338513189c56c3740d424cd2268be4a4923d99a'       #client secret
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
@@ -151,5 +151,5 @@ txbh: true
 #2-所有文章均有版权声明
 declare_type: 2
 licensee_url: https://creativecommons.org/licenses/by-nc-sa/4.0/          # 当前应用的版权协议地址。
-licensee_name: '知识共享署名-4.0国际许可协议'  # 版权协议的名称
+licensee_name: '知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议'  # 版权协议的名称
 #licensee_img: https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png      # 版权协议的Logo

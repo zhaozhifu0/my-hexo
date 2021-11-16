@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.zhaozf.site
+url: https://blogs.zhaozf.site
 root: /
 # permalink: :year/:month/:day/:title/
 permalink: :abbrlink/
@@ -30,8 +30,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-# skip_render: ['demo / ** / *','gitbook/**/*']
-skip_render: "demo/**/*"
+skip_render: ['demo/**/* ','gitbook/**/*']
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -89,12 +88,23 @@ feed:
   limit: 100
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+
+# deploy:
+#   type: rsync
+#   host: 175.24.112.81
+#   user: root
+#   root: /usr/local/nginx/  #/var/www/html  #远程主机的根目录
+#   port: 22
+#   delete: true    #删除远程主机上的旧文件
+#   verbose: true   #显示调试信息
+#   ignore_errors: false   #忽略错误
+
 deploy:
-  type: git
-  repo: 
-      github: git@github.com:zhaozhifu0/zhaozhifu0.github.io.git
-      coding: git@git.dev.tencent.com:zhaozhifu/zhaozhifu.git
-  branch: master 
+ type: git
+ repo: 
+     github: git@github.com:zhaozhifu0/zhaozhifu0.github.io.git
+     coding: git@git.dev.tencent.com:zhaozhifu/zhaozhifu.git
+ branch: master
 
 #站点地图
 #sitemap:
